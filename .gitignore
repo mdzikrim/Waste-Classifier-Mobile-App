@@ -1,0 +1,36 @@
+# --- ANDROID ---
+.gradle/
+build/
+*/build/
+local.properties
+.cxx/
+.externalNativeBuild/
+captures/
+*.iml
+.idea/
+*.apk
+*.aab
+*.log
+
+# Signing / Keystore (jangan commit)
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Firebase / kredensial
+app/google-services.json
+serviceAccount*.json
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+env/
+*.sqlite3
+*.h5
+*.pt
+*.onnx
+*.pkl
