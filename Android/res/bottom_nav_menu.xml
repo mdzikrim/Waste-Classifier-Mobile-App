@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_identifikasi"
+        android:icon="@drawable/search_data"
+        android:title="Identifikasi" />
+    <item
+        android:id="@+id/item_profil"
+        android:icon="@drawable/user"
+        android:title="Profil" />
+</menu>
