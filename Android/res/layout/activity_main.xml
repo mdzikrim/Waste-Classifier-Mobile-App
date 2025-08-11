@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#eee"
+        android:scaleType="centerCrop"
+        android:contentDescription="preview gambar"/>
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambil Foto"/>
+
+    <Button
+        android:id="@+id/btnKlasifikasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klasifikasi"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil akan muncul di sini"
+        android:textSize="16sp"
+        android:paddingTop="20dp"/>
+</LinearLayout>
