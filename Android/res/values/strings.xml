@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MSkuv</string>
+    <string name="hasil_klasifikasi">Hasil klasifikasi akan muncul di sini</string>
+    <string name="desc_image">Gambar tampilan identifikasi sampah</string>
+    <string name="desc_image_ide">Gambar tampilan ide daur ulang</string>
+    <string name="message_ideas">Jika sudah di halaman Ide Daur Ulang, tidak perlu apa-apa</string>
+
+    <!-- Tambahkan string resource yang dibutuhkan -->
+    <string name="organik">Organik</string>  <!-- Organik -->
+    <string name="anorganik">Anorganik</string>  <!-- Anorganik -->
+    <string name="jenis_sampah">Jenis Sampah</string>  <!-- Jenis Sampah -->
+</resources>
