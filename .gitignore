@@ -30,7 +30,6 @@ __pycache__/
 venv/
 env/
 *.sqlite3
-*.h5
 *.pt
 *.onnx
 *.pkl
