@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:gravity="center_horizontal"
+    android:padding="32dp">
+
+    <!-- Gambar hasil klasifikasi -->
+    <ImageView
+        android:id="@+id/ivHasilGambar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/bg_circle_white"
+        android:contentDescription="Hasil Gambar"/>
+
+    <!-- Hasil Klasifikasi -->
+    <TextView
+        android:id="@+id/tvHasilKlasifikasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil Klasifikasi"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#333"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Tanggal -->
+    <TextView
+        android:id="@+id/tvTanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal"
+        android:textSize="16sp"
+        android:textColor="#888"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Tombol Kembali -->
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"/>
+</LinearLayout>
